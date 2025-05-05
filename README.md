@@ -62,7 +62,7 @@ trips_by_base_month <- uber_data %>% count(Base, Month)
 
 ---
 
-## 📊 Dashboard Features
+## Dashboard Features
 
 The interactive Shiny application includes:
 
@@ -113,7 +113,7 @@ leaflet(subset_data) %>%
 
 ## Prediction Model
 
-We created a linear regression model to estimate ride count using hour, weekday, and month:
+I created a linear regression model to estimate ride count using hour, weekday, and month:
 
 ```r
 trip_summary <- uber_data %>%
